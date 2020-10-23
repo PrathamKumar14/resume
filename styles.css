@@ -24,14 +24,12 @@ body {
 .contact-me > a {
   margin: 5px;
   font-size: 2em;
-  color: #e11d74;
-  text-shadow: 2px 2px 4px #7d7d7d;
+  color: black;
+  text-shadow: 4px 4px 4px #666666;
 }
 
 .heading {
-  font-family: "Poppins", sans-serif;
   font-family: "Notable", sans-serif;
-  color: #e11d74;
   font-size: 4em;
   text-transform: uppercase;
 }
@@ -45,13 +43,13 @@ body {
 .name {
   margin-bottom: 40px;
   margin-top: 60px;
-  -webkit-text-stroke: 1px black;
   letter-spacing: 4px;
+  text-shadow: 6px 6px 6px rgb(119 119 119);
 }
 
 hr {
   border: none;
-  border-top: 10px dotted #e11d74;
+  border-top: 10px dotted black;
   width: 30%;
   margin: auto;
   margin-top: 20px;
@@ -89,9 +87,9 @@ hr {
 
 .li-heading {
   font-family: "poppins";
-  color: #e11d74;
   font-size: 1.4em;
   text-decoration: underline;
+  /* text-shadow: 2px 2px 2px #3e3e3e; */
 }
 
 h3,
@@ -115,7 +113,7 @@ h4 {
 }
 
 .education-list > li > h4 > a {
-  color: #e11d74;
+  color: #6985c4;
   font-size: 1.1em;
 }
 
