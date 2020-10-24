@@ -21,13 +21,6 @@ body {
   top: 2px;
 }
 
-.contact-me > a {
-  margin: 5px;
-  font-size: 2em;
-  color: black;
-  text-shadow: 4px 4px 4px #666666;
-}
-
 .heading {
   font-family: "Notable", sans-serif;
   font-size: 4em;
@@ -45,6 +38,7 @@ body {
   margin-top: 60px;
   letter-spacing: 4px;
   text-shadow: 6px 6px 6px rgb(119 119 119);
+  text-align: center;
 }
 
 hr {
@@ -63,7 +57,7 @@ hr {
 
 .list-wrapper {
   position: relative;
-  right: 20px;
+  right: 16px;
   overflow: hidden;
 }
 
@@ -123,7 +117,7 @@ h4 {
 }
 
 .btn-container {
-  padding: 16px 8px;
+  padding: 16px 12px;
   background: linear-gradient(
     90deg,
     rgba(0, 207, 255, 1) 0%,
@@ -133,18 +127,17 @@ h4 {
   );
   display: inline-block;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 .download-btn {
-  padding: 10px 20px;
+  padding: 6px;
   color: black;
   background: white;
   text-align: right;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 8px;
+  border-radius: 10px;
   font-size: 1.2em;
-  letter-spacing: 2px;
   font-family: "poppins";
 }
